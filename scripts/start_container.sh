@@ -2,7 +2,7 @@
 set -e
 
 # Pull the Docker image from Docker Hub
-echo
+docker pull hrushikesh99/app:latest
 
 # Run the Docker image as a container
-echo
+docker run -d -p 5000:5000 hrushikesh99/app
